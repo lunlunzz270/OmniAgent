@@ -1,0 +1,10 @@
+node_modules
+server/node_modules
+build
+coverage
+.git
+.DS_Store
+package-lock.json
+server/package-lock.json
+server/uploads
+*.pdf

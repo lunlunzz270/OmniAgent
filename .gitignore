@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+server/node_modules/
+.pnp
+.pnp.js
+
+# Production and build outputs
+build/
+dist/
+coverage/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.*
+*.env
+server/.env
+src/.env
+
+# Local Cache & Storage
+server/.cache/
+.cache/
+
+# User Uploaded Documents (Never committed)
+server/uploads/*
+!server/uploads/hbs-lean-startup.pdf
+
+# OS and Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
